@@ -1,4 +1,4 @@
-# Zones
+# RedM Zones
 
 This resource allows you to create multiple blip zones in RedM, with configurable locations and attributes.
 
