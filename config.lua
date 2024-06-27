@@ -6,13 +6,11 @@ Config.BlipZones = {
         radius = 250.0,
         blipId = 693035517
     },
-    -- {
-    --     x = -500.00,
-    --     y = 500.00,
-    --     z = 100.00,
-    --     radius = 100.0,
-    --     blipId = 8846348
-    -- }
+    {
+        x = -1973.84, y = 550.61, z = 115.93,
+        radius = 100.0,
+        blipId = 693035517
+    }
     -- Galite pridėti daugiau zonų čia
 }
 
