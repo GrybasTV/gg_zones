@@ -19,7 +19,6 @@ end
 -- Įtraukimas AddEventHandler, kad pašalintų blip'us, kai resursas sustabdytas
 AddEventHandler("onResourceStop", function(resourceName)
     if GetCurrentResourceName() == resourceName then
-        print("Removing all blips...")
         RemoveAllBlips()
     end
 end)
