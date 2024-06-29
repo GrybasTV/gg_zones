@@ -6,7 +6,7 @@ This resource allows you to create multiple blip zones in RedM, with configurabl
 ## Features
 
 - Create multiple blip zones with configurable coordinates, radius, and blip ID.
-- Ensure blips are removed when the resource stops.
+
 
 
 
