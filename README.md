@@ -1,25 +1,19 @@
 ![paveikslas](https://github.com/GrybasTV/gg_zones/assets/118368718/4f3f41c7-2a88-4a61-8ceb-b7fb4894886f)
-# RedM Zones
+GG Zones
+Overview
 
-This resource allows you to create multiple blip zones in RedM, with configurable locations and attributes.
+GG Zones is a configuration script for creating and managing blip zones in RedM. This script allows you to define specific zones on the map, each with its own properties like location, radius, and blip ID.
+Features
 
-## Features
-
-- Create multiple blip zones with configurable coordinates, radius, and blip ID.
-
-
-
-
-Usage
-
-    Start your RedM server.
-    The blips defined in Config.lua will automatically appear in the specified locations.
-    Blips are also removed when the resource is stopped.
-
+    Custom Blip Zones: Define multiple zones with specific coordinates, radius, and blip types.
+    Dynamic Blip Creation: Automatically creates blips on the map based on the configuration.
+    Zone Colors: Utilize various blip colors and types to represent different zones.
+    Resource Management: Automatically removes blips when the resource is stopped.
+    
 Contributing
 
-If you have suggestions or improvements, feel free to create a pull request or open an issue.
+Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
