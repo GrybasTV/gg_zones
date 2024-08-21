@@ -3,7 +3,7 @@ Config = {}
 Config.BlipZones = {
     {
         x = -1428.79, y = -2322.11, z = 43.11,
-        radius = 250.0,
+        radius = 100.0,
         blipId = 693035517
     },
     {
