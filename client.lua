@@ -8,24 +8,29 @@ function CreateZoneBlip(zone)
     end)
 end
 
--- Funkcija, pašalinanti visus sukurtus blip'us
-function RemoveAllBlips()
-    for _, blip in ipairs(blips) do
-        Citizen.InvokeNative(0x45FF974EEE1C8734, blip)
-    end
-    blips = {}
-end
+
 
 -- Įtraukimas AddEventHandler, kad pašalintų blip'us, kai resursas sustabdytas
 AddEventHandler("onResourceStop", function(resourceName)
     if GetCurrentResourceName() == resourceName then
-        RemoveAllBlips()
+        for _, blip in ipairs(blips) do
+            RemoveBlip(blip) -- Remove each blip properly
+        end
+        blips = {}
     end
 end)
 
 -- Inicializavimas: Sukuriami blip'ai iš Config
+
 Citizen.CreateThread(function()
     for _, zone in ipairs(Config.BlipZones) do
         CreateZoneBlip(zone)
     end
 end)
+
+
+
+
+
+
+
