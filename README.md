@@ -1,5 +1,6 @@
 ![paveikslas](https://github.com/GrybasTV/gg_zones/assets/118368718/4f3f41c7-2a88-4a61-8ceb-b7fb4894886f)
 
+Support: https://discord.gg/KxSBTYr5wS
 
 # GG Zones
 
